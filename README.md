@@ -13,3 +13,5 @@ mongod
 from your MongoDB directory, and then run the code with
 
 npm start
+
+note : please check the 3000 port incase npm start dos'nt work 
