@@ -5,7 +5,9 @@ var app = express();
 var mongojs = require('mongojs');
 var db = mongojs('contactlist', ['contactlist']);
 var bodyParser = require('body-parser');
+var User = mongoose.model('userSchema');
 
+// require('./test/public/models/user.js');
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 
